@@ -26,7 +26,7 @@ jobs:
   update-data:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -66,9 +66,9 @@ jobs:
         git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
-    - name: "Publish ZZZS doctors' availability data changes to git"
+    - name: "Publish data changes to git"
       if: github.repository == 'openstreetmap-si/bus-routes-osm-lpp' && github.ref == 'refs/heads/main'
-      uses: github-actions-x/commit@v2
+      uses: github-actions-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'main'
