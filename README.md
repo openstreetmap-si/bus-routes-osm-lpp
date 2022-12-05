@@ -6,6 +6,7 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 
 * [Bus lines](data/lpp/lines.csv)
 * [Bus stops](data/lpp/stops.csv)
+* [Bus stops on all bus lines](data/lpp/lines_stops.csv)
 
 ## Development
 
