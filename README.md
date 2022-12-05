@@ -1,4 +1,6 @@
-# LPP bus routes in OpenStreetMap
+# Ljubljana LPP bus routes in OpenStreetMap
+
+[![Update](https://github.com/openstreetmap-si/bus-routes-osm-lpp/actions/workflows/update.yaml/badge.svg)](https://github.com/openstreetmap-si/bus-routes-osm-lpp/actions/workflows/update.yaml)
 
 ## Development
 
