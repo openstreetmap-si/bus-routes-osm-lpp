@@ -77,7 +77,60 @@ def getLppLines():
     df.to_csv('data/lpp/lines.csv')
 
 
+def getLppLinesStops():
+    lines = pd.read_csv('data/lpp/lines.csv', index_col=['id'])
+    stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
+    linesStopsArray = []
+
+    # "?stop=700012-2&amp;ref=1211"
+    # stopHrefRegex = r"^\?stop=([0-9]{6,6})-[0-9]&amp;ref=[0-9]{3,4}$"
+    stopHrefRegex = r"^\?stop=([0-9]{6,6})-([0-9]{1,1})"
+
+    for index, row in lines.iterrows():
+        print("==========", index, row['line'], row['name'], "==========")
+        # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?line=1240
+        page = requests.get(f'{BaseURL}?line={index}')
+        page.raise_for_status()
+        soup = BeautifulSoup(page.content, "html.parser")
+        direcionsDiv = soup.find("div", {"id": f'line{index}'})
+        dirDiv = direcionsDiv.find_all("div", {"class": 'lineDir'})
+        for direction in dirDiv:
+            dirStops = direction.find_all("div", {"class": "line-dir-stop"})
+            dirSequence = 0
+            for stopDiv in dirStops:
+                stopA = stopDiv.find("a", {"class": 'stop'})
+                text = stopA.text.strip()
+                href = stopA['href']
+                match = re.match(stopHrefRegex, href)
+                if match == None:
+                    print(
+                        f"Unexpected href '{href}' in stop link for {text}, not matching regex '{stopHrefRegex}', aborting.")
+                    raise
+
+                stopId = int(match.group(1))
+                officialStopName = stops.at[stopId, 'name']
+                if officialStopName != text:
+                    print(
+                        f"Stop name of {stopId} shold be '{officialStopName}' but got '{text}'!")
+                    raise ("Stop name mismatch")
+                dir = match.group(2)
+                if dir != "1" and dir != "2":
+                    print(
+                        f"Unexpected direction '{dir}' in line '{index}', aborting.")
+                    raise ("Unexpected direction")
+                dirSequence += 1
+                print(index, dir, dirSequence, stopId, text)
+                linesStopsArray.append([index, dir, dirSequence, stopId])
+
+    df = pd.DataFrame(linesStopsArray, columns=[
+        'lineId', 'direction', 'sequence', 'stopId'])
+    df.set_index(['lineId', 'direction', 'sequence'], inplace=True)
+    print(df)
+    df.to_csv('data/lpp/lines_stops.csv')
+
+
 if __name__ == "__main__":
 
     getLppStops()
     getLppLines()
+    getLppLinesStops()
