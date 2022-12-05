@@ -5,7 +5,7 @@
 Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php) and saves it into [data/lpp](./data/lpp/):
 
 * [Bus lines](data/lpp/lines.csv)
-* [Bus stops](data/lpp/lines.csv)
+* [Bus stops](data/lpp/stops.csv)
 
 ## Development
 
