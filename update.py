@@ -31,12 +31,12 @@ def getLppStops():
                 f"Unexpected text '{text}' in stop option, not matching regex '{stopTextRegex}', aborting.")
             raise
 
-        name = text[:-len(val)-3]
+        name = text[:-len(val)-3].strip()
         stopsArray.append([val, name])
 
     df = pd.DataFrame(stopsArray, columns=['id', 'name'])
+    df.sort_values(by=['name', 'id'], inplace=True)
     df.set_index('id', inplace=True)
-    df.sort_values(by=['name'], inplace=True)
     print(df)
     df.to_csv('data/lpp/stops.csv')
 
