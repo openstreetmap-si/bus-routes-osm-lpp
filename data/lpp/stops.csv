@@ -4,16 +4,16 @@ id,name
 103031,AMZS
 103032,AMZS
 505132,Adamičev spomenik
-600022,Ajdovščina
 600021,Ajdovščina
+600022,Ajdovščina
 503031,Akademija
 503032,Akademija
 803021,Aleja
 803022,Aleja
 502013,Ambrožev trg
 502014,Ambrožev trg
-804172,Andreja Bitenca
 804171,Andreja Bitenca
+804172,Andreja Bitenca
 303061,Archinetova
 303062,Archinetova
 101051,Astra
@@ -35,16 +35,16 @@ id,name
 203142,BTC-Emporium
 203131,BTC-Kolosej
 203132,BTC-Kolosej
-203242,BTC-Merkur
 203241,BTC-Merkur
+203242,BTC-Merkur
 203121,BTC-tržnica
 203122,BTC-tržnica
 203111,BTC-uprava
 203112,BTC-uprava
 103211,Baragova
 103212,Baragova
-604023,Barje
 604022,Barje
+604023,Barje
 725091,Belica
 725092,Belica
 204141,Belinka
@@ -53,20 +53,20 @@ id,name
 405022,Besnica
 405051,Besnica ambulanta
 405052,Besnica ambulanta
-405062,Besnica kamnolom
 405061,Besnica kamnolom
-405032,Besnica šola
+405062,Besnica kamnolom
 405031,Besnica šola
+405032,Besnica šola
 101031,Bežigrad
 101032,Bežigrad
-404122,Bizovik
 404121,Bizovik
-405042,Blaževo
+404122,Bizovik
 405041,Blaževo
-504122,Bobrova
+405042,Blaževo
 504121,Bobrova
-402042,Bolnica
+504122,Bobrova
 402041,Bolnica
+402042,Bolnica
 802041,Bolnica P. Držaja
 802042,Bolnica P. Držaja
 703101,Bonifacija
@@ -79,8 +79,8 @@ id,name
 803162,Bratov Babnik
 803131,Bratov Učakar
 803132,Bratov Učakar
-101062,Bratov Židan
 101061,Bratov Židan
+101062,Bratov Židan
 704023,Brdo
 704026,Brdo
 715111,Brezje pri Dobrovi
@@ -94,13 +94,13 @@ id,name
 726022,Briše pri Polh.G.
 726031,Briše pri Polh.G.Koroš.
 726032,Briše pri Polh.G.Koroš.
-726042,Briše pri Polh.G.M.Voda
 726041,Briše pri Polh.G.M.Voda
+726042,Briše pri Polh.G.M.Voda
 804122,Brod
-303072,Brodarjev trg
 303071,Brodarjev trg
-505092,Brvace
+303072,Brodarjev trg
 505091,Brvace
+505092,Brvace
 826031,Bukovica Anzel
 826032,Bukovica Anzel
 826021,Bukovica Plevevc
@@ -112,8 +112,8 @@ id,name
 726061,Butajnova Čamernik
 726062,Butajnova Čamernik
 103173,C. STOŽICE P+R
-704162,C. dveh cesarjev
 704161,C. dveh cesarjev
+704162,C. dveh cesarjev
 703221,C. na Vrhovce
 703222,C. na Vrhovce
 602011,Cankarjev dom
@@ -122,46 +122,46 @@ id,name
 204182,Center Zalog
 703021,Cesta XV
 703022,Cesta XV
-104092,Cesta na Brod
 104091,Cesta na Brod
+104092,Cesta na Brod
 204351,Cesta na Kope
 204352,Cesta na Kope
-304092,Cesta na Vevče
 304091,Cesta na Vevče
+304092,Cesta na Vevče
 404021,Cesta v Bizovik
 404022,Cesta v Bizovik
 704151,Cesta v Gorice
 704152,Cesta v Gorice
 204271,Cesta v Kresnice
 204272,Cesta v Kresnice
-204342,Cesta v Zajčjo Dobravo
 204341,Cesta v Zajčjo Dobravo
-404072,Cesta v Zavoglje
+204342,Cesta v Zajčjo Dobravo
 404071,Cesta v Zavoglje
+404072,Cesta v Zavoglje
 304041,Chengdujska
 304042,Chengdujska
-505082,Cikava
 505081,Cikava
-502024,Cukrarna
+505082,Cikava
 502021,Cukrarna
 502022,Cukrarna
+502024,Cukrarna
 704011,D. MOST P+R
 725111,D.vas pri Polh.G.
 725112,D.vas pri Polh.G.
 204231,DRAGOMELJ
 600032,Dalmatinova
-725014,Dobrova
-725013,Dobrova
-725012,Dobrova
 725011,Dobrova
-715082,Dobrova Maček
+725012,Dobrova
+725013,Dobrova
+725014,Dobrova
 715081,Dobrova Maček
-715092,Dobrova Skodlar
+715082,Dobrova Maček
 715091,Dobrova Skodlar
-715062,Dobrova graben
+715092,Dobrova Skodlar
 715061,Dobrova graben
-715072,Dobrova vodomet
+715062,Dobrova graben
 715071,Dobrova vodomet
+715072,Dobrova vodomet
 404031,Dobrunje
 404032,Dobrunje
 404131,Dobrunje-2
@@ -172,10 +172,10 @@ id,name
 825072,Dobruša lipa
 703111,Dolgi most
 703112,Dolgi most
-704052,Dolgi most Rotar
 704051,Dolgi most Rotar
-804402,Dolnice
+704052,Dolgi most Rotar
 804401,Dolnice
+804402,Dolnice
 505192,Dom obrtnikov
 505182,Dom starejših
 803221,Draga
@@ -184,53 +184,53 @@ id,name
 602022,Drama
 803151,Draveljska gmajna
 803152,Draveljska gmajna
-803042,Dravlje
 803041,Dravlje
+803042,Dravlje
 715011,Draževnik
 715012,Draževnik
-802052,Drenikova
 802051,Drenikova
+802052,Drenikova
 804351,Dvor
 804352,Dvor
 725101,Dvor pri Polh.G.
 725102,Dvor pri Polh.G.
 104061,Elma
 104062,Elma
-403052,Emona
 403051,Emona
-745022,Erbežnik
+403052,Emona
 745021,Erbežnik
+745022,Erbežnik
 304051,FUŽINE P+R
 202082,Flajšmanova
-301012,Friškovec
 301011,Friškovec
+301012,Friškovec
 104221,GAMELJNE
 104361,GD Gameljne
 104362,GD Gameljne
-505143,GROSUPLJE
 505141,GROSUPLJE
+505143,GROSUPLJE
 725041,Gaberje pri Dob.Brvičar
 725042,Gaberje pri Dob.Brvičar
 725031,Gaberje pri Dobrovi
 725032,Gaberje pri Dobrovi
 603093,Galjevica
 603094,Galjevica
-102032,Gasilska brigada
 102031,Gasilska brigada
-603022,Gerbičeva
+102032,Gasilska brigada
 603021,Gerbičeva
-703082,Glince
+603022,Gerbičeva
 703081,Glince
-402052,Glonarjeva
+703082,Glince
 402051,Glonarjeva
-714022,Gmajna
+402052,Glonarjeva
 714021,Gmajna
+714022,Gmajna
 603151,Goluhova
 603152,Goluhova
-815202,Goričane kopal.
 815201,Goričane kopal.
-815192,Goričane pod gradom
+815202,Goričane kopal.
 815191,Goričane pod gradom
+815192,Goričane pod gradom
 103091,Gorjančeva
 103092,Gorjančeva
 402061,Gornje Poljane
@@ -241,41 +241,41 @@ id,name
 602102,Gornji trg
 700011,Gosposvetska
 700012,Gosposvetska
-815102,Gostilna Kovač
 815101,Gostilna Kovač
+815102,Gostilna Kovač
 716011,HORJUL
 602031,Hajdrihova
 602032,Hajdrihova
-604042,Hauptmanca
 604041,Hauptmanca
+604042,Hauptmanca
 204311,Hladilniška
 204312,Hladilniška
-204313,Hladilniška 
+204313,Hladilniška
 716012,Horjul
-725072,Hrastenice
 725071,Hrastenice
-204062,Hrastje
+725072,Hrastenice
 204061,Hrastje
-816012,Hraše center
+204062,Hrastje
 816011,Hraše center
-816022,Hraše vzhod
+816012,Hraše center
 816021,Hraše vzhod
+816022,Hraše vzhod
 815131,Hraše zahod
 815132,Hraše zahod
 725051,Hruševo
 725052,Hruševo
-404112,Hruševska
 404111,Hruševska
-404012,Hrušica
+404112,Hruševska
 404011,Hrušica
-402012,Hrvatski trg
+404012,Hrušica
 402011,Hrvatski trg
+402012,Hrvatski trg
 703211,I. Kobilca
 703212,I. Kobilca
 103231,I.C.Šiška
 103232,I.C.Šiška
-804162,IMP
 804161,IMP
+804162,IMP
 625021,Ig
 625022,Ig
 605012,Ig AP
@@ -288,35 +288,35 @@ id,name
 626011,IŠKA VAS obr.
 625051,Iška vas
 625052,Iška vas
-625062,Iška vas šola
 625061,Iška vas šola
-604012,Iški most
+625062,Iška vas šola
 604011,Iški most
-603122,Ižanska
+604012,Iški most
 603121,Ižanska
-604062,Ižica
+603122,Ižanska
 604061,Ižica
+604062,Ižica
 745061,JEZERO
 104321,JEŽICA P+R
-603012,Jadranska
 603011,Jadranska
+603012,Jadranska
 703031,Jamnikarjeva
 703032,Jamnikarjeva
 403011,Jana Husa
 403012,Jana Husa
-744022,Japelj
 744021,Japelj
+744022,Japelj
 203091,Jarše
 203092,Jarše
-405012,Javor
 405011,Javor
-425012,Javor-2
+405012,Javor
 425011,Javor-2
+425012,Javor-2
 104181,Ježa
 104182,Ježa
-104033,Ježica
 104031,Ježica
 104032,Ježica
+104033,Ježica
 703201,Ježkova
 703202,Ježkova
 504041,Jurčkova
@@ -327,48 +327,48 @@ id,name
 404052,KPL
 815031,KS. Pirniče
 815032,KS. Pirniče
-815112,Kajakaška
 815111,Kajakaška
+815112,Kajakaška
 303022,Kajuhova
-104022,Kališnikov trg
 104021,Kališnikov trg
+104022,Kališnikov trg
 804391,Kamnogoriška
 804392,Kamnogoriška
-102092,Kardeljeva ploščad
 102091,Kardeljeva ploščad
+102092,Kardeljeva ploščad
 203051,Kavčičeva
 203052,Kavčičeva
-304162,Kašeljska
 304161,Kašeljska
-802022,Kino Šiška
+304162,Kašeljska
 802021,Kino Šiška
+802022,Kino Šiška
 402031,Klinični center
 402032,Klinični center
-803082,Kneza Koclja
 803081,Kneza Koclja
+803082,Kneza Koclja
+403021,Kodeljevo
 403022,Kodeljevo
 403023,Kodeljevo
-403021,Kodeljevo
-203102,Kodrova
 203101,Kodrova
+203102,Kodrova
 300011,Kolodvor
 300012,Kolodvor
 104101,Kolodvor Črnuče
 104102,Kolodvor Črnuče
-715022,Komanija
 715021,Komanija
+715022,Komanija
 803031,Kompas
 803032,Kompas
 505172,Kongo
 601012,Konzorcij
 603041,Koprska
 603044,Koprska
-826111,Koseze
 803141,Koseze
 803142,Koseze
+826111,Koseze
 826112,Koseze
-826122,Koseze Stare
 826121,Koseze Stare
+826122,Koseze Stare
 804081,Kosmačeva
 804082,Kosmačeva
 625041,Kot
@@ -382,28 +382,28 @@ id,name
 203211,Kranjčeva
 603031,Krimska
 603032,Krimska
-804412,Krivec
 804411,Krivec
-602062,Križanke
+804412,Krivec
 602061,Križanke
-404083,Križišče Sostro
+602062,Križanke
 404081,Križišče Sostro
 404082,Križišče Sostro
+404083,Križišče Sostro
 404084,Križišče Sostro
 536022,Krpan
 101034,Kržičeva
 727011,Kurja vas/Šentjoštu
 727012,Kurja vas/Šentjoštu
-204051,LETALIŠKA 
+204051,LETALIŠKA
 103201,LITOSTROJ
 803052,LITOSTROJSKA
 300013,LJUBLJANA AP
 603111,Lahova pot
 603112,Lahova pot
-406072,Lanišče
 406071,Lanišče
-504092,Lavrica
+406072,Lanišče
 504091,Lavrica
+504092,Lavrica
 504081,Lavrica pri Malči
 504082,Lavrica pri Malči
 204301,Ledena dvorana Zalog
@@ -418,38 +418,38 @@ id,name
 716021,Ljubgojna
 716022,Ljubgojna
 505152,Ljubljanska
-803062,Ljubljanske brigade
 803061,Ljubljanske brigade
-603252,Log
+803062,Ljubljanske brigade
 603251,Log
-725082,Log pri Polh.G.
+603252,Log
 725081,Log pri Polh.G.
+725082,Log pri Polh.G.
 501031,Lutkovno gl.
 501032,Lutkovno gl.
 415061,MALI LIPOGLAV
 805023,MEDVODE
 805041,MEDVODE naselje
-505042,Mali vrh
 505041,Mali vrh
-103162,Maroltova
+505042,Mali vrh
 103161,Maroltova
+103162,Maroltova
 804131,Martinova
 804132,Martinova
-736012,Mačkov graben
 736011,Mačkov graben
-804072,Medno
+736012,Mačkov graben
 804071,Medno
-805022,Medvode
+804072,Medno
 805021,Medvode
+805022,Medvode
 805052,Medvode na klancu
-805012,Medvoška a.p.
 805011,Medvoška a.p.
-102082,Mercator
+805012,Medvoška a.p.
 102081,Mercator
-604032,Mestni log
+102082,Mercator
 604031,Mestni log
-503052,Mihov štradon
+604032,Mestni log
 503051,Mihov štradon
+503052,Mihov štradon
 602071,Mirje
 602072,Mirje
 603201,Mokrška
@@ -459,34 +459,34 @@ id,name
 102061,Mostovna
 102062,Mostovna
 536012,Mrzle njive
-603064,Murgle
 603061,Murgle
+603064,Murgle
 804211,Murkova
 804212,Murkova
 103081,N. STOŽICE P+R
 745043,NOTRANJE GORICE
 203171,NOVE JARŠE
 504061,NS RUDNIK
-504052,NS Rudnik
 504051,NS Rudnik
+504052,NS Rudnik
 704061,Na Gmajnici
 704062,Na Gmajnici
-802032,Na jami
 802031,Na jami
+802032,Na jami
 804091,Na klancu
 804092,Na klancu
-203232,Na Žalah
 203231,Na Žalah
+203232,Na Žalah
 204131,Nadgorica
 204132,Nadgorica
 100012,Navje
 203161,Nove Jarše-Šmartinska
-203072,Nove Žale
 203071,Nove Žale
-204102,Novo Polje
+203072,Nove Žale
 204101,Novo Polje
-805032,Novo naselje
+204102,Novo Polje
 805031,Novo naselje
+805032,Novo naselje
 603172,OPEKARSKA
 804112,Ob daljnovodu
 303032,Ob sotočju
@@ -500,7 +500,7 @@ id,name
 304022,Osenjakova
 804341,Oval
 804342,Oval
-505162,OŠ Brinje 
+505162,OŠ Brinje
 745101,OŠ Jezero
 104151,OŠ Maksa Pečarja
 104152,OŠ Maksa Pečarja
@@ -512,8 +512,8 @@ id,name
 726012,POLHOV GRADEC
 825031,POLJE obr.
 804181,PRŽAN
-415052,Pance
 415051,Pance
+415052,Pance
 101021,Parmova
 101022,Parmova
 503041,Peruzzijeva
@@ -526,10 +526,10 @@ id,name
 803122,Plešičeva
 204281,Pod Debnim vrhom
 204282,Pod Debnim vrhom
-403032,Pod Golovcem
 403031,Pod Golovcem
-504072,Pod Hribom
+403032,Pod Golovcem
 504071,Pod Hribom
+504072,Pod Hribom
 804191,Pod Kamno gorico
 804193,Pod Kamno gorico
 702011,Pod Rožnikom
@@ -542,8 +542,8 @@ id,name
 505112,Pod gozdom
 804031,Podgora
 804032,Podgora
-204222,Podgorica
 204221,Podgorica
+204222,Podgorica
 204262,Podgrad
 415021,Podlipoglav
 415022,Podlipoglav
@@ -553,8 +553,8 @@ id,name
 703052,Podmornica
 715121,Podolnica
 715122,Podolnica
-745051,Podpeč 
-745052,Podpeč 
+745051,Podpeč
+745052,Podpeč
 725121,Podreber/Polh.G.
 725122,Podreber/Polh.G.
 715031,Podsmreka GD
@@ -563,38 +563,38 @@ id,name
 715042,Podsmreka Rotar
 715051,Podsmreka pri Gorjancu
 715052,Podsmreka pri Gorjancu
-704182,Podvozna pot
 704181,Podvozna pot
+704182,Podvozna pot
 103061,Pohorskega bataljona
 103062,Pohorskega bataljona
 203011,Pokopališka
 203012,Pokopališka
-104122,Polanškova
 104121,Polanškova
-402022,Poliklinika
+104122,Polanškova
 402021,Poliklinika
+402022,Poliklinika
 502011,Poljanska
 502012,Poljanska
-304074,Polje
-304072,Polje
 304071,Polje
+304072,Polje
+304074,Polje
 825032,Polje obračališče
 304081,Polje-kolodvor
 304082,Polje-kolodvor
 703191,Pot R. križa
 703192,Pot R. križa
-303052,Pot na Fužine
 303051,Pot na Fužine
-603072,Pot na Rakovo jelšo
+303052,Pot na Fužine
 603071,Pot na Rakovo jelšo
+603072,Pot na Rakovo jelšo
 104141,Pot v Hrastovec
 104142,Pot v Hrastovec
-104132,Pot v Smrečje
 104131,Pot v Smrečje
-204292,Pot v mejah
+104132,Pot v Smrečje
 204291,Pot v mejah
-825012,Povodje
+204292,Pot v mejah
 825011,Povodje
+825012,Povodje
 601011,Pošta
 404041,Pošta Dobrunje
 404042,Pošta Dobrunje
@@ -606,65 +606,65 @@ id,name
 815152,Preska
 406031,Prežganje
 406032,Prežganje
-406042,Prežganje šola
 406041,Prežganje šola
-415072,Pri Dogonivar
+406042,Prežganje šola
 415071,Pri Dogonivar
-415092,Pri Dolencu
+415072,Pri Dogonivar
 415091,Pri Dolencu
-604052,Pri Maranzu
+415092,Pri Dolencu
 604051,Pri Maranzu
+604052,Pri Maranzu
 704081,Pri Poku
-415082,Primožev ovinek
 415081,Primožev ovinek
+415082,Primožev ovinek
 104113,Primožičeva
-602112,Privoz
 602111,Privoz
-804022,Prušnikova
+602112,Privoz
 804021,Prušnikova
+804022,Prušnikova
 804231,Pržanec
 804232,Pržanec
 103041,Puhova
 103042,Puhova
 504031,RUDNIK
 704072,Radna
+503021,Rakovnik
+503022,Rakovnik
 815211,Rakovnik
 815212,Rakovnik
-503022,Rakovnik
-503021,Rakovnik
 403061,Rast
 403062,Rast
-505052,Razdrto
 505051,Razdrto
-714042,Razori K
+505052,Razdrto
 714041,Razori K
+714042,Razori K
 714031,Razori Rogovilc
 714032,Razori Rogovilc
 100021,Razstavišče
 100022,Razstavišče
-104212,Rašica
 104211,Rašica
+104212,Rašica
 204161,Reaktor
 204162,Reaktor
 505021,Reber pri Škofljici
 505022,Reber pri Škofljici
 803014,Remiza
-825042,Repnje Benk
 825041,Repnje Benk
-825062,Repnje kapelica
+825042,Repnje Benk
 825061,Repnje kapelica
-825052,Repnje samostan
+825062,Repnje kapelica
 825051,Repnje samostan
-104112,Rogovilc
+825052,Repnje samostan
 104111,Rogovilc
+104112,Rogovilc
 203021,Rožičeva
 203022,Rožičeva
 703011,Rožna dolina
 703012,Rožna dolina
 504032,Rudnik
 504033,Rudnik
-304032,Rusjanov trg
 304031,Rusjanov trg
+304032,Rusjanov trg
 103131,Ruski car
 103132,Ruski car
 104011,SAVLJE
@@ -678,47 +678,47 @@ id,name
 102011,Samova
 102012,Samova
 505071,Sap
-505072,Sap 
+505072,Sap
 204201,Saturnus
 104051,Sava
 104052,Sava
 104054,Sava
 202031,Savske stolpnice
 202032,Savske stolpnice
-202042,Savsko naselje
 202041,Savsko naselje
+202042,Savsko naselje
 415041,Selo
 415042,Selo
 826101,Selo Mali Dunaj
 826102,Selo Mali Dunaj
 826051,Selo pri Vodicah
 826052,Selo pri Vodicah
-304132,Silos
 304131,Silos
+304132,Silos
 825021,Skaručna
 825022,Skaručna
 803011,Slovenija avto
 803012,Slovenija avto
 204111,Slovenijales
 204112,Slovenijales
-103072,Smelt
 103071,Smelt
+103072,Smelt
 815121,Smlednik šola
 815122,Smlednik šola
-737012,Smolnik Praprotnik
 737011,Smolnik Praprotnik
-736052,Smolnik Setnik
+737012,Smolnik Praprotnik
 736051,Smolnik Setnik
+736052,Smolnik Setnik
 736041,Smolnik Zalog
 736042,Smolnik Zalog
 737021,Smolnik nad hribom
 737022,Smolnik nad hribom
-736032,Smolnik žaga
 736031,Smolnik žaga
+736032,Smolnik žaga
 406051,Smrekarjevo
 406052,Smrekarjevo
-204072,Sneberje
 204071,Sneberje
+204072,Sneberje
 204321,Sneberska
 204322,Sneberska
 816041,Sora
@@ -731,30 +731,30 @@ id,name
 104342,Sp. Gameljne 2
 104351,Sp. Gameljne 3
 104352,Sp. Gameljne 3
-815022,Sp. Pirniče
 815021,Sp. Pirniče
-803172,Spar
+815022,Sp. Pirniče
 803171,Spar
-504022,Spodnji Rudnik
+803172,Spar
 504021,Spodnji Rudnik
+504022,Spodnji Rudnik
 725131,Sr.vas pri Polh.G.
 725132,Sr.vas pri Polh.G.
 202091,Središka
 202092,Središka
-102042,Stadion
 102041,Stadion
+102042,Stadion
 625031,Staje
 625032,Staje
-804062,Stanežiče
 804061,Stanežiče
+804062,Stanežiče
 104371,Stara Ježica
 104372,Stara Ježica
 802011,Stara cerkev
 802012,Stara cerkev
-505102,Stara pošta
 505101,Stara pošta
-103102,Stožice
+505102,Stara pošta
 103101,Stožice
+103102,Stožice
 502031,Streliška
 502032,Streliška
 503011,Strelišče
@@ -762,39 +762,39 @@ id,name
 304061,Studenec
 304062,Studenec
 835031,Svetje
-702032,Svetčeva
 702031,Svetčeva
+702032,Svetčeva
 203081,TOMAČEVO
 602121,TRNOVO
 406081,TUJI GRM
-804102,Tabor
 804101,Tabor
+804102,Tabor
 804104,Tabor
-804144,Tacenski most
 804141,Tacenski most
+804144,Tacenski most
 500011,Tavčarjeva
 603141,Tbilisijska
-603144,Tbilisijska
 603142,Tbilisijska
 603143,Tbilisijska
-803072,Tehnounion
+603144,Tbilisijska
 803071,Tehnounion
+803072,Tehnounion
 802061,Tiki
 802062,Tiki
-801012,Tivoli
 801011,Tivoli
-701012,Tivolska
+801012,Tivoli
 701011,Tivolska
-602042,Tobačna
+701012,Tivolska
 602041,Tobačna
-203032,Tomačevska
+602042,Tobačna
 203031,Tomačevska
-603212,Tomažičeva
+203032,Tomačevska
 603211,Tomažičeva
-103012,Toplarna
+603212,Tomažičeva
 103011,Toplarna
-102022,Topniška
+103012,Toplarna
 102021,Topniška
+102022,Topniška
 103051,Tovarna Lek
 103052,Tovarna Lek
 203061,Tovorni kolodvor
@@ -803,35 +803,35 @@ id,name
 804012,Trata
 204251,Trbeže
 204252,Trbeže
-406022,Trebeljevo
 406021,Trebeljevo
+406022,Trebeljevo
 602122,Trnovo
-803102,Tržnica Koseze
 803101,Tržnica Koseze
-303012,Tržnica Moste
+803102,Tržnica Koseze
 303011,Tržnica Moste
-826042,Utik
+303012,Tržnica Moste
 826041,Utik
+826042,Utik
 304101,VEVČE
 804051,VIŽMARJE
-826012,VODICE
 826011,VODICE
-815092,Valburga
+826012,VODICE
 815091,Valburga
+815092,Valburga
 815181,Vaše
 815172,Vaše Helios
-415032,Veliki Lipoglav
 415031,Veliki Lipoglav
-603082,Veliki štradon
+415032,Veliki Lipoglav
 603081,Veliki štradon
+603082,Veliki štradon
 835011,Verje
 835012,Verje
 826061,Vesca
 826062,Vesca
 304102,Vevče
 304103,Vevče
-304122,Vevče Papirnica
 304121,Vevče Papirnica
+304122,Vevče Papirnica
 703181,Večna pot
 703182,Večna pot
 202011,Viadukt
@@ -842,8 +842,8 @@ id,name
 703092,Vič
 703041,Viško polje
 703042,Viško polje
-804252,Vižmarje
 804251,Vižmarje
+804252,Vižmarje
 826091,Vodice OŠ
 826092,Vodice OŠ
 505122,Vodičar
@@ -857,8 +857,8 @@ id,name
 704032,Vrhovci
 716041,Vrzdenec
 716042,Vrzdenec
-203192,Yulon
 203191,Yulon
+203192,Yulon
 204081,ZADOBROVA
 204211,ZALOG
 825111,ZAPOGE obr.
@@ -875,8 +875,8 @@ id,name
 204212,Zalog
 204213,Zalog
 204214,Zalog
-303024,Zaloška
 303021,Zaloška
+303024,Zaloška
 825081,Zapoge
 825082,Zapoge
 804381,Zapuže
@@ -887,8 +887,8 @@ id,name
 815142,Zavrh
 805071,Zbilje K
 805072,Zbilje K
-805082,Zbilje jezero
 805081,Zbilje jezero
+805082,Zbilje jezero
 805061,Zbiljski Gaj
 805062,Zbiljski Gaj
 204191,Zeleni gaj
@@ -898,14 +898,14 @@ id,name
 104201,Zg. Gameljne
 104202,Zg. Gameljne
 815041,Zg. Pirniče
-803092,Zgornja Šiška
 803091,Zgornja Šiška
+803092,Zgornja Šiška
 704141,Zgornji log
 704142,Zgornji log
 602092,Ziherlova
 602093,Ziherlova
-501022,Zmajski most
 501021,Zmajski most
+501022,Zmajski most
 603261,ČRNI LOG
 737041,ČRNI VRH
 104161,ČRNUČE
@@ -913,14 +913,14 @@ id,name
 803112,Čebelarska
 103121,Čerinova
 103122,Čerinova
-737032,Črni Vrh nad Vrhovci
 737031,Črni Vrh nad Vrhovci
+737032,Črni Vrh nad Vrhovci
 716051,ŠENTJOŠT
 515013,ŠKOFLJICA obr.
-303043,ŠTEPANJSKO NAS.
 303041,ŠTEPANJSKO NAS.
-406012,Šemnikar
+303043,ŠTEPANJSKO NAS.
 406011,Šemnikar
+406012,Šemnikar
 204151,Šentjakob
 204152,Šentjakob
 204153,Šentjakob
@@ -938,8 +938,8 @@ id,name
 504101,Škofljica Petkovšek
 504102,Škofljica Petkovšek
 515011,Škofljica špica
-504112,Škofljica žaga
 504111,Škofljica žaga
+504112,Škofljica žaga
 104071,Šlandrova
 104072,Šlandrova
 505061,Šmarje
@@ -947,17 +947,17 @@ id,name
 104191,Šmartno
 104193,Šmartno pod Š.G.
 104194,Šmartno pod Š.G.
-203042,Šola Jarše
 203041,Šola Jarše
+203042,Šola Jarše
 203044,Šola Jarše
 744011,Šolska
 744012,Šolska
-505032,Špilar
 505031,Špilar
+505032,Špilar
 103182,Štajerska
-403043,Štepanja vas
-403042,Štepanja vas
 403041,Štepanja vas
+403042,Štepanja vas
+403043,Štepanja vas
 702021,Študentsko naselje
 702022,Študentsko naselje
 725021,Šujica
