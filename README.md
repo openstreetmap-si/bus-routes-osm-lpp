@@ -2,6 +2,11 @@
 
 [![Update](https://github.com/openstreetmap-si/bus-routes-osm-lpp/actions/workflows/update.yaml/badge.svg)](https://github.com/openstreetmap-si/bus-routes-osm-lpp/actions/workflows/update.yaml)
 
+Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php) and saves it into [data/lpp](./data/lpp/):
+
+* [Bus lines](data/lpp/lines.csv)
+* [Bus stops](data/lpp/lines.csv)
+
 ## Development
 
 1. `python3 -m venv venv` or `virtualenv -p python3 venv`
