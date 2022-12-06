@@ -97,7 +97,7 @@ def getLppLinesStops():
     stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)"
 
     for index, row in lines.iterrows():
-        print(f"=========={index} {row['line']}{row['nameFrom']} - {row['nameTo']} ==========")
+        print(f"Stops on line {row['line']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")
         # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?line=1240
         page = requests.get(f'{BaseURL}?line={index}')
         page.raise_for_status()
@@ -121,11 +121,11 @@ def getLppLinesStops():
                 officialStopName = stops.at[stopId, 'name']
                 if officialStopName != text:
                     print(
-                        f"Stop name of {stopId} shold be '{officialStopName}' but got '{text}'!")
+                        f"Stop name of {stopId} on line  {row['line']}, direction {dir}, sequence {dirSequence} shold be '{officialStopName}' but got '{text}'!")
                     raise ("Stop name mismatch")
                 dir = match.group(2)
                 dirSequence += 1
-                print(index, dir, dirSequence, stopId, text)
+                # print(index, dir, dirSequence, stopId, text)
                 linesStopsArray.append([index, dir, dirSequence, stopId])
 
     df = pd.DataFrame(linesStopsArray, columns=[
