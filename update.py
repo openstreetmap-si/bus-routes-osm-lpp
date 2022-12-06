@@ -94,7 +94,7 @@ def getLppLinesStops():
 
     # "?stop=700012-2&amp;ref=1211"
     # stopHrefRegex = r"^\?stop=([0-9]{6,6})-[0-9]&amp;ref=[0-9]{3,4}$"
-    stopHrefRegex = r"^\?stop=([0-9]{6,6})-([0-9]{1,1})"
+    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)"
 
     for index, row in lines.iterrows():
         print(f"=========={index} {row['line']}{row['nameFrom']} - {row['nameTo']} ==========")
@@ -124,10 +124,6 @@ def getLppLinesStops():
                         f"Stop name of {stopId} shold be '{officialStopName}' but got '{text}'!")
                     raise ("Stop name mismatch")
                 dir = match.group(2)
-                if dir != "1" and dir != "2":
-                    print(
-                        f"Unexpected direction '{dir}' in line '{index}', aborting.")
-                    raise ("Unexpected direction")
                 dirSequence += 1
                 print(index, dir, dirSequence, stopId, text)
                 linesStopsArray.append([index, dir, dirSequence, stopId])
