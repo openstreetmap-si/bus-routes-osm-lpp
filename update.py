@@ -49,6 +49,9 @@ def getLppLines():
     # 11B - BEŽIGRAD (Železna) - ZALOG
     lineTextRegex = r"^([0-9A-Z]{1,3}) - ((.*) - (.*))$"
 
+    stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
+    stopNames = stops['name'].unique()
+
     selectListLines = soup.find("select", {"id": "line"})
     linesArray = []
     linesOptions = selectListLines.find_all('option')
@@ -66,7 +69,15 @@ def getLppLines():
         line = match.group(1).strip()
         name = match.group(2).strip()
         nameFrom = match.group(3).strip()
+        if nameFrom not in stopNames:
+            print(f"Unknown nameFrom '{nameFrom}' stop")
+            raise
+
         nameTo = match.group(4).strip()
+        if nameTo not in stopNames:
+            print(f"Unknown nameTo '{nameTo}' stop")
+            raise
+
         linesArray.append([val, line, name, nameFrom, nameTo])
 
     df = pd.DataFrame(linesArray, columns=[
