@@ -92,9 +92,8 @@ def getLppLinesStops():
     stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
     linesStopsArray = []
 
-    # "?stop=700012-2&amp;ref=1211"
-    # stopHrefRegex = r"^\?stop=([0-9]{6,6})-[0-9]&amp;ref=[0-9]{3,4}$"
-    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)"
+    # "?stop=700012-2&amp;ref=1211" - urlencoded, but decoded when reading:
+    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&ref=[0-9]{3,4}$"
 
     for index, row in lines.iterrows():
         print(f"Stops on line {row['line']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")
