@@ -67,7 +67,6 @@ def getLppLines():
             raise
 
         line = match.group(1).strip()
-        name = match.group(2).strip()
         nameFrom = match.group(3).strip()
         if nameFrom not in stopNames:
             print(f"Unknown nameFrom '{nameFrom}' stop")
@@ -78,10 +77,10 @@ def getLppLines():
             print(f"Unknown nameTo '{nameTo}' stop")
             raise
 
-        linesArray.append([val, line, name, nameFrom, nameTo])
+        linesArray.append([val, line, nameFrom, nameTo])
 
     df = pd.DataFrame(linesArray, columns=[
-                      'id', 'line', 'name', 'nameFrom', 'nameTo'])
+                      'id', 'line', 'nameFrom', 'nameTo'])
     df.set_index('id', inplace=True)
     # df.sort_values(by=['line'], inplace=True)
     print(df)
@@ -98,7 +97,7 @@ def getLppLinesStops():
     stopHrefRegex = r"^\?stop=([0-9]{6,6})-([0-9]{1,1})"
 
     for index, row in lines.iterrows():
-        print("==========", index, row['line'], row['name'], "==========")
+        print(f"=========={index} {row['line']}{row['nameFrom']} - {row['nameTo']} ==========")
         # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?line=1240
         page = requests.get(f'{BaseURL}?line={index}')
         page.raise_for_status()
