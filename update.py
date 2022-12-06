@@ -38,7 +38,7 @@ def getLppStops():
     df.sort_values(by=['name', 'id'], inplace=True)
     df.set_index('id', inplace=True)
     print(df)
-    df.to_csv('data/lpp/stops.csv')
+    df.to_csv('data/lpp/stops.csv', encoding='utf-8-sig')
 
 
 def getLppLines():
@@ -84,7 +84,7 @@ def getLppLines():
     df.set_index('id', inplace=True)
     # df.sort_values(by=['line'], inplace=True)
     print(df)
-    df.to_csv('data/lpp/lines.csv')
+    df.to_csv('data/lpp/lines.csv', encoding='utf-8-sig')
 
 
 def getLppLinesStops():
@@ -131,7 +131,7 @@ def getLppLinesStops():
         'lineId', 'direction', 'sequence', 'stopId'])
     df.set_index(['lineId', 'direction', 'sequence'], inplace=True)
     print(df)
-    df.to_csv('data/lpp/lines_stops.csv')
+    df.to_csv('data/lpp/lines_stops.csv', encoding='utf-8-sig')
 
 
 if __name__ == "__main__":
