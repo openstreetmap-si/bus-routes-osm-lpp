@@ -47,6 +47,7 @@ def getLppLines():
     soup = BeautifulSoup(page.content, "html.parser")
 
     # 11B - BEŽIGRAD (Železna) - ZALOG
+    # "13 V pripravi - C. STOŽICE P+R - SOSTRO" - ignore!
     lineTextRegex = r"^([0-9A-Z]{1,3}) - ((.*) - (.*))$"
 
     stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
@@ -63,18 +64,19 @@ def getLppLines():
         match = re.match(lineTextRegex, text)
         if match == None:
             print(
-                f"Unexpected text '{text}' in stop option, not matching regex '{lineTextRegex}', aborting.")
-            raise
+                f"Unexpected text '{text}' in line option, not matching regex '{lineTextRegex}', skipping.")
+            continue
+            # raise
 
         line = match.group(1).strip()
         nameFrom = match.group(3).strip()
         if nameFrom not in stopNames:
-            print(f"Unknown nameFrom '{nameFrom}' stop")
+            print(f"Unknown nameFrom '{nameFrom}' stop in line {val}")
             raise
 
         nameTo = match.group(4).strip()
         if nameTo not in stopNames:
-            print(f"Unknown nameTo '{nameTo}' stop")
+            print(f"Unknown nameTo '{nameTo}' stop in line {val}")
             raise
 
         linesArray.append([val, line, nameFrom, nameTo])
