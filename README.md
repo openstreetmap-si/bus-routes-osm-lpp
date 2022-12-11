@@ -8,6 +8,12 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 * [Bus stops](data/lpp/stops.csv)
 * [Bus stops on all bus lines](data/lpp/lines_stops.csv)
 
+```mermaid
+erDiagram
+          line ||--|{ lines_stops : "has stops"
+          stop ||--o{ lines_stops : "for lines"
+```
+
 ## Development
 
 1. `python3 -m venv venv` or `virtualenv -p python3 venv`
