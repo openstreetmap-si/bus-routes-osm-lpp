@@ -12,21 +12,21 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 erDiagram
           lines ||--|{ lines_stops : "has stops"
           lines {
-              int id
+              int id PK
               string line
               string nameFrom
               string nameTo
           }
           stops ||--o{ lines_stops : "for lines"
           stops {
-              int id
+              int id PK
               string name
           }
           lines_stops {
-              int lineId
+              int lineId FK
               int direction
               int sequence 
-              int stopId
+              int stopId FK
           }
 ```
 
