@@ -10,23 +10,23 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 
 ```mermaid
 erDiagram
-          lines ||--|{ lines_stops : "has stops"
+          lines ||--o{ lines_stops : "has stops"
           lines {
-              int id PK
-              string line
-              string nameFrom
-              string nameTo
+              int id PK "3-4-digit bus line ID"
+              string line "Line number on buses"
+              string nameFrom "Start stop name"
+              string nameTo "End stop name"
           }
           stops ||--o{ lines_stops : "for lines"
           stops {
-              int id PK
-              string name
+              int id PK "6-digit bus stop ID"
+              string name "Bus stop name"
           }
           lines_stops {
-              int lineId FK
-              int direction
-              int sequence 
-              int stopId FK
+              int lineId FK "3-4-digit bus line ID"
+              int direction "1=forward, 2=backwards"
+              int sequence "Stop number in the given direction"
+              int stopId FK "6-digit bus stop ID"
           }
 ```
 
