@@ -10,8 +10,8 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 
 ```mermaid
 erDiagram
-          line ||--|{ lines_stops : "has stops"
-          stop ||--o{ lines_stops : "for lines"
+          lines ||--|{ lines_stops : "has stops"
+          stops ||--o{ lines_stops : "for lines"
 ```
 
 ## Development
