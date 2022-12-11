@@ -23,7 +23,7 @@ erDiagram
               string name
           }
           lines_stops {
-              int id
+              int lineId
               int direction
               int sequence 
               int stopId
