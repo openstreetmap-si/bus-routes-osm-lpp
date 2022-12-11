@@ -4,9 +4,9 @@
 
 Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php) and saves it into [data/lpp](./data/lpp/):
 
-* [Bus lines](data/lpp/lines.csv)
-* [Bus stops](data/lpp/stops.csv)
-* [Bus stops on all bus lines](data/lpp/lines_stops.csv)
+* [`lines.csv`: Bus lines](data/lpp/lines.csv)
+* [`stops.csv`: Bus stops](data/lpp/stops.csv)
+* [`lines_stops.csv`: Bus stops on all bus lines](data/lpp/lines_stops.csv)
 
 ```mermaid
 erDiagram
