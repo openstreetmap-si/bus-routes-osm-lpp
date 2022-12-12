@@ -136,8 +136,21 @@ def getLppLinesStops():
     df.to_csv('data/lpp/lines_stops.csv', encoding='utf-8-sig')
 
 
+def saveurl(url: str, filename: str):
+    print("Downloading ", url)
+    r = requests.get(url, allow_redirects=True)
+    r.raise_for_status()
+    open(filename, 'wb').write(r.content)
+    print("Saved", filename)
+
+def getMarpromData():
+    saveurl("https://www.marprom.si/webmap/lineData/mainlines.geojson", "data/marprom/mainlines.geojson")
+    saveurl("https://www.marprom.si/webmap/lineData/stops.geojson", "data/marprom/stops.geojson")
+
 if __name__ == "__main__":
 
     getLppStops()
     getLppLines()
     getLppLinesStops()
+
+    getMarpromData()
