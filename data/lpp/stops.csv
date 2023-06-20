@@ -59,6 +59,7 @@
 405052,Besnica ambulanta
 405061,Besnica kamnolom
 405062,Besnica kamnolom
+405111,Besnica obrač.
 405031,Besnica šola
 405032,Besnica šola
 101031,Bežigrad
@@ -252,6 +253,8 @@
 604042,Hauptmanca
 204311,Hladilniška
 204312,Hladilniška
+405081,Hlebš
+405082,Hlebš
 716012,Horjul
 725071,Hrastenice
 725072,Hrastenice
@@ -497,6 +500,8 @@
 603171,Opekarska
 304021,Osenjakova
 304022,Osenjakova
+204361,Ostrovrhar
+204362,Ostrovrhar
 804341,Oval
 804342,Oval
 505162,OŠ Brinje
@@ -517,6 +522,8 @@
 101022,Parmova
 503041,Peruzzijeva
 503042,Peruzzijeva
+303081,Pesarska
+303082,Pesarska
 736021,Petačev graben
 736022,Petačev graben
 304111,Petrol
@@ -578,6 +585,7 @@
 304072,Polje
 304074,Polje
 825032,Polje obračališče
+825033,Polje obračališče
 304081,Polje-kolodvor
 304082,Polje-kolodvor
 703191,Pot R. križa
@@ -723,6 +731,8 @@
 204322,Sneberska
 816041,Sora
 816032,Sora OŠ
+404092,Sostro
+404093,Sostro
 104331,Sp. Gameljne 1
 104332,Sp. Gameljne 1
 104341,Sp. Gameljne 2
@@ -782,6 +792,8 @@
 803072,Tehnounion
 802061,Tiki
 802062,Tiki
+405101,Tinčk
+405102,Tinčk
 801011,Tivoli
 801012,Tivoli
 701011,Tivolska
@@ -814,6 +826,7 @@
 826041,Utik
 826042,Utik
 304101,VEVČE
+804051,VIŽMARJE
 826011,VODICE
 826012,VODICE
 815091,Valburga
@@ -844,6 +857,8 @@
 703042,Viško polje
 804251,Vižmarje
 804252,Vižmarje
+405091,Vnajnarje
+405092,Vnajnarje
 826091,Vodice OŠ
 826092,Vodice OŠ
 505122,Vodičar
