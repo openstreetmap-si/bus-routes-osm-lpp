@@ -9,4 +9,4 @@ pytz==2023.3
 requests==2.31.*
 six==1.16.*
 soupsieve==2.4.*
-urllib3==1.26.*
+urllib3==2.0.*
