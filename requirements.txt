@@ -1,12 +1,12 @@
 beautifulsoup4==4.12.*
-certifi==2022.12.*
+certifi==2023.5.*
 charset-normalizer==3.1.*
 idna==3.4
 numpy==1.24.*
 pandas==2.0.*
 python-dateutil==2.8.*
 pytz==2023.3
-requests==2.29.*
+requests==2.31.*
 six==1.16.*
 soupsieve==2.4.*
 urllib3==2.0.*
