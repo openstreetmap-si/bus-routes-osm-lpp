@@ -3,7 +3,7 @@ certifi==2023.7.*
 charset-normalizer==3.2.*
 idna==3.4
 numpy==1.25.*
-pandas==2.0.*
+pandas==2.1.*
 python-dateutil==2.8.*
 pytz==2023.3
 requests==2.31.*
