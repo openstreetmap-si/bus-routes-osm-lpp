@@ -410,6 +410,7 @@
 204051,LETALIŠKA
 103201,LITOSTROJ
 803052,LITOSTROJSKA
+803053,LITOSTROJSKA
 300013,LJUBLJANA AP
 406071,Lanišče
 406072,Lanišče
@@ -501,7 +502,6 @@
 805032,Novo naselje
 303081,Nusdorferjeva
 303082,Nusdorferjeva
-804111,Ob daljnovodu
 804112,Ob daljnovodu
 303032,Ob sotočju
 104081,Obrtna cona
@@ -791,10 +791,7 @@
 804101,Tabor
 804102,Tabor
 804104,Tabor
-804151,Tacen
-804152,Tacen
 804141,Tacenski most
-804142,Tacenski most
 804144,Tacenski most
 500011,Tavčarjeva
 603141,Tbilisijska
@@ -974,7 +971,6 @@
 505061,Šmarje
 505062,Šmarje
 104191,Šmartno
-104192,Šmartno
 104193,Šmartno pod Š.G.
 104194,Šmartno pod Š.G.
 203041,Šola Jarše
