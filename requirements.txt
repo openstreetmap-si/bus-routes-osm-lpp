@@ -4,7 +4,7 @@ charset-normalizer==3.3.*
 idna==3.6
 numpy==1.26.*
 pandas==2.2.*
-python-dateutil==2.8.*
+python-dateutil==2.9.*
 pytz==2024.1
 requests==2.31.*
 six==1.16.*
