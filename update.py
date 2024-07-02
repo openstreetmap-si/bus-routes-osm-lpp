@@ -124,7 +124,7 @@ def getLppLinesStops():
 
                 stopId = int(match.group(1))
                 officialStopName = stops.at[stopId, 'name']
-                if officialStopName != text:
+                if officialStopName.lower() != text.lower():
                     print(
                         f"Stop name of {stopId} on line  {row['line']}, direction {dir}, sequence {dirSequence} shold be '{officialStopName}' but got '{text}'!")
                     raise ("Stop name mismatch")
