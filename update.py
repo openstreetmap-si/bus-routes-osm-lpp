@@ -48,7 +48,11 @@ def getLppLines():
 
     # 11B - BEŽIGRAD (Železna) - ZALOG
     # "13 V pripravi - C. STOŽICE P+R - SOSTRO" - ignore!
-    lineTextRegex = r"^([0-9A-Z]{1,3}) - ((.*) - (.*))$"
+    # 18 Počitniški - KOLODVOR - C. STOŽICE P+R
+    # 11B Počitniški - BEŽIGRAD (Železna) - ZALOG
+    # SŽ - SŽ ŠIŠKA - SŽ KOLODVOR
+    # 24 Počitniški - BTC-ATLANTIS - VEVČE
+    lineTextRegex = r"^(.*) - ((.*) - (.*))$"
 
     stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
     stopNames = stops['name'].unique()
