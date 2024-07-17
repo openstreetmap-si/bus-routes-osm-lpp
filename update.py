@@ -52,7 +52,7 @@ def getLppLines():
     # 11B Počitniški - BEŽIGRAD (Železna) - ZALOG
     # SŽ - SŽ ŠIŠKA - SŽ KOLODVOR
     # 24 Počitniški - BTC-ATLANTIS - VEVČE
-    lineTextRegex = r"^(.*) - ((.*) - (.*))$"
+    lineTextRegex = r"^([^ ]*)( ([^\-]*))? - ((.*) - (.*))$"
 
     stops = pd.read_csv('data/lpp/stops.csv', index_col=['id'])
     stopNames = stops['name'].unique()
@@ -73,20 +73,21 @@ def getLppLines():
             # raise
 
         line = match.group(1).strip()
-        nameFrom = match.group(3).strip()
+        lineExtra = match.group(3)
+        nameFrom = match.group(5).strip()
         if nameFrom not in stopNames:
             print(f"Unknown nameFrom '{nameFrom}' stop in line {val}")
             raise
 
-        nameTo = match.group(4).strip()
+        nameTo = match.group(6).strip()
         if nameTo not in stopNames:
             print(f"Unknown nameTo '{nameTo}' stop in line {val}")
             raise
 
-        linesArray.append([val, line, nameFrom, nameTo])
+        linesArray.append([val, line, lineExtra, nameFrom, nameTo])
 
     df = pd.DataFrame(linesArray, columns=[
-                      'id', 'line', 'nameFrom', 'nameTo'])
+                      'id', 'line', 'lineExtra', 'nameFrom', 'nameTo'])
     df.set_index('id', inplace=True)
     # df.sort_values(by=['line'], inplace=True)
     print(df)
@@ -102,7 +103,7 @@ def getLppLinesStops():
     stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&ref=[0-9]{3,4}$"
 
     for index, row in lines.iterrows():
-        print(f"Stops on line {row['line']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")
+        print(f"Stops on line {row['line']}/{row['lineExtra']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")
         # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?line=1240
         page = requests.get(f'{BaseURL}?line={index}')
         page.raise_for_status()
