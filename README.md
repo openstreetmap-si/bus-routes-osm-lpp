@@ -16,6 +16,7 @@ erDiagram
           lines {
               int id PK "3-4-digit bus line ID"
               string line "Line number on buses"
+              string lineExtra "Extra line descriptor (seasonal, temporary)"
               string nameFrom "Start stop name"
               string nameTo "End stop name"
           }
