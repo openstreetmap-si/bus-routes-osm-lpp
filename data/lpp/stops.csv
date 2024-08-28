@@ -49,6 +49,7 @@
 103212,Baragova
 604022,Barje
 604023,Barje
+405122,Baron
 725091,Belica
 725092,Belica
 204141,Belinka
@@ -97,6 +98,12 @@
 614022,Brglezov štradon
 103021,Brinje
 103022,Brinje
+726021,Briše pri Polh.G.
+726022,Briše pri Polh.G.
+726031,Briše pri Polh.G.Koroš.
+726032,Briše pri Polh.G.Koroš.
+726041,Briše pri Polh.G.M.Voda
+726042,Briše pri Polh.G.M.Voda
 804122,Brod
 303071,Brodarjev trg
 303072,Brodarjev trg
@@ -106,6 +113,12 @@
 826032,Bukovica Anzel
 826021,Bukovica Plevevc
 826022,Bukovica Plevevc
+726071,Butajnova
+726072,Butajnova
+726051,Butajnova Setnik
+726052,Butajnova Setnik
+726061,Butajnova Čamernik
+726062,Butajnova Čamernik
 103173,C. STOŽICE P+R
 704161,C. dveh cesarjev
 704162,C. dveh cesarjev
@@ -304,6 +317,8 @@
 744022,Japelj
 203091,Jarše
 203092,Jarše
+405011,Javor
+405012,Javor
 425011,Javor-2
 425012,Javor-2
 104181,Ježa
@@ -317,6 +332,7 @@
 614112,Jurečič
 504041,Jurčkova
 504042,Jurčkova
+504043,Jurčkova
 504044,Jurčkova
 803181,KAMNA GORICA
 300015,KOLODVOR
@@ -387,10 +403,14 @@
 602062,Križanke
 404081,Križišče Sostro
 404082,Križišče Sostro
+404083,Križišče Sostro
+404084,Križišče Sostro
 404101,Krožna pot
 404102,Krožna pot
 536022,Krpan
 101034,Kržičeva
+727011,Kurja vas/Šentjoštu
+727012,Kurja vas/Šentjoštu
 204051,LETALIŠKA P+R
 103201,LITOSTROJ
 803053,LITOSTROJSKA
@@ -540,6 +560,8 @@
 804193,Pod Kamno gorico
 702011,Pod Rožnikom
 702012,Pod Rožnikom
+404171,Pod Sivnikom
+404172,Pod Sivnikom
 404141,Pod Urhom
 404142,Pod Urhom
 505111,Pod gozdom
@@ -684,6 +706,7 @@
 404091,SOSTRO
 804361,STANEŽIČE
 804241,STANEŽIČE P+R
+727021,SUHI DOL
 415011,Sadinja vas
 415012,Sadinja vas
 102011,Samova
