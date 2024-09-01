@@ -8,5 +8,5 @@ python-dateutil==2.9.*
 pytz==2024.1
 requests==2.32.*
 six==1.16.*
-soupsieve==2.5
+soupsieve==2.6
 urllib3==2.2.*
