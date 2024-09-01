@@ -2,7 +2,7 @@ beautifulsoup4==4.12.*
 certifi==2024.8.*
 charset-normalizer==3.3.*
 idna==3.7
-numpy==2.0.*
+numpy==2.1.*
 pandas==2.2.*
 python-dateutil==2.9.*
 pytz==2024.1
