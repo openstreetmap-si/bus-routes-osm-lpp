@@ -5,7 +5,7 @@ idna==3.10
 numpy==2.1.*
 pandas==2.2.*
 python-dateutil==2.9.*
-pytz==2024.1
+pytz==2024.2
 requests==2.32.*
 six==1.16.*
 soupsieve==2.6
