@@ -1,6 +1,6 @@
 beautifulsoup4==4.12.*
 certifi==2024.8.*
-charset-normalizer==3.3.*
+charset-normalizer==3.4.*
 idna==3.10
 numpy==2.1.*
 pandas==2.2.*
