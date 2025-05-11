@@ -7,6 +7,6 @@ pandas==2.2.*
 python-dateutil==2.9.*
 pytz==2024.2
 requests==2.32.*
-six==1.16.*
+six==1.17.*
 soupsieve==2.6
 urllib3==2.4.*
