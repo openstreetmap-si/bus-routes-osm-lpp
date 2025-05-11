@@ -100,16 +100,16 @@ def getLppLinesStops():
     linesStopsArray = []
 
     # "?stop=700012-2&amp;ref=1211" - urlencoded, but decoded when reading:
-    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&ref=[0-9]{3,4}$"
+    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&lref=[0-9A-Z]{1,3}$"
 
     for index, row in lines.iterrows():
         print(f"Stops on line {row['line']}/{row['lineExtra']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")
-        # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?line=1240
-        page = requests.get(f'{BaseURL}?line={index}')
+        # https://www.lpp.si/sites/default/files/lpp_vozniredi/iskalnik/index.php?stop=0&l=3B
+        page = requests.get(f'{BaseURL}?stop=0&l={index}')
         page.raise_for_status()
         soup = BeautifulSoup(page.content, "html.parser")
-        direcionsDiv = soup.find("div", {"id": f'line{index}'})
-        dirDiv = direcionsDiv.find_all("div", {"class": 'lineDir'})
+        # direcionsDiv = soup.find("div", {"id": f'line{index}'})
+        dirDiv = soup.find_all("div", {"class": 'line-dir-wrapper'})
         for direction in dirDiv:
             dirStops = direction.find_all("div", {"class": "line-dir-stop"})
             dirSequence = 0
