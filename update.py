@@ -100,7 +100,7 @@ def getLppLinesStops():
     linesStopsArray = []
 
     # "?stop=700012-2&amp;ref=1211" - urlencoded, but decoded when reading:
-    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&lref=[0-9A-Z]{1,3}$"
+    stopHrefRegex = r"^\?stop=([0-9]{6,6})-(1|2)&lref=[0-9A-Z]{1,3}(\.[\-a-z]*)?$"
 
     for index, row in lines.iterrows():
         print(f"Stops on line {row['line']}/{row['lineExtra']} ({index}): \t{row['nameFrom']} - {row['nameTo']}")

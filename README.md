@@ -14,7 +14,7 @@ Fetches the data from [LPP bus schedule](https://www.lpp.si/sites/default/files/
 erDiagram
           lines ||--o{ lines_stops : "has stops"
           lines {
-              int id PK "3-4-digit bus line ID"
+              string id PK "Bus line ID (composite of line number and lineExtra)"
               string line "Line number on buses"
               string lineExtra "Extra line descriptor (seasonal, temporary)"
               string nameFrom "Start stop name"
@@ -26,7 +26,7 @@ erDiagram
               string name "Bus stop name"
           }
           lines_stops {
-              int lineId FK "3-4-digit bus line ID"
+              string lineId FK "Bus line ID (composite of line number and lineExtra)"
               int direction "1=forward, 2=backwards"
               int sequence "Stop number in the given direction"
               int stopId FK "6-digit bus stop ID"
