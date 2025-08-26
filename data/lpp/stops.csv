@@ -225,6 +225,7 @@
 104221,GAMELJNE
 104361,GD Gameljne
 104362,GD Gameljne
+804511,GLINCE
 505141,GROSUPLJE
 505143,GROSUPLJE
 725041,Gaberje pri Dob.Brvičar
@@ -237,8 +238,6 @@
 102032,Gasilska brigada
 603021,Gerbičeva
 603022,Gerbičeva
-703081,Glince
-703082,Glince
 402051,Glonarjeva
 402052,Glonarjeva
 714021,Gmajna
@@ -363,6 +362,8 @@
 303022,Kajuhova
 104021,Kališnikov trg
 104022,Kališnikov trg
+803182,Kamna Gorica
+803183,Kamna Gorica
 804391,Kamnogoriška
 804392,Kamnogoriška
 102091,Kardeljeva ploščad
@@ -550,8 +551,6 @@
 105111,OŠ Domžale
 105112,OŠ Domžale
 745101,OŠ Jezero
-104151,OŠ Maksa Pečarja
-104152,OŠ Maksa Pečarja
 404161,OŠ Sostro
 404162,OŠ Sostro
 204261,PODGRAD
@@ -623,8 +622,6 @@
 103062,Pohorskega bataljona
 203011,Pokopališka
 203012,Pokopališka
-104121,Polanškova
-104122,Polanškova
 402021,Poliklinika
 402022,Poliklinika
 502011,Poljanska
@@ -644,10 +641,6 @@
 303052,Pot na Fužine
 603071,Pot na Rakovo jelšo
 603072,Pot na Rakovo jelšo
-104141,Pot v Hrastovec
-104142,Pot v Hrastovec
-104131,Pot v Smrečje
-104132,Pot v Smrečje
 204291,Pot v mejah
 204292,Pot v mejah
 825011,Povodje
@@ -678,7 +671,6 @@
 704081,Pri Poku
 415081,Primožev ovinek
 415082,Primožev ovinek
-104113,Primožičeva
 602111,Privoz
 602112,Privoz
 804021,Prušnikova
@@ -921,6 +913,8 @@
 815012,Vikrče
 703091,Vič
 703092,Vič
+703081,Vič Glince
+703082,Vič Glince
 703041,Viško polje
 703042,Viško polje
 804251,Vižmarje
@@ -960,6 +954,7 @@
 404152,Zadvor-2
 715131,Zaklanec/Horjulu
 715132,Zaklanec/Horjulu
+804502,Zakrajškova
 303021,Zaloška
 303024,Zaloška
 825081,Zapoge
