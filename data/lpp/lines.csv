@@ -1,46 +1,90 @@
 ﻿id,line,lineExtra,nameFrom,nameTo
 SZ,SŽ,,SŽ ŠIŠKA,SŽ KOLODVOR
 1,1,,D. MOST P+R,STANEŽIČE P+R
+1.v-pripravi,1,V pripravi,D. MOST P+R,STANEŽIČE P+R
 1B,1B,,D. MOST P+R,GAMELJNE
+1B.v-pripravi,1B,V pripravi,D. MOST P+R,GAMELJNE
 N1,N1,,BAV. DVOR (Kozolec),GAMELJNE
+N1.v-pripravi,N1,V pripravi,BAV. DVOR (Kozolec),GAMELJNE
 2,2,,NOVE JARŠE,ZELENA JAMA
+2.v-pripravi,2,V pripravi,NOVE JARŠE,ZELENA JAMA
 3,3,,LITOSTROJ,RUDNIK
+3.v-pripravi,3,V pripravi,LITOSTROJ,RUDNIK
 3B,3B,,LITOSTROJ,ŠKOFLJICA obr.
+3B.v-pripravi,3B,V pripravi,LITOSTROJ,ŠKOFLJICA obr.
 3G,3G,,BEŽIGRAD (Železna),GROSUPLJE
+3G.v-pripravi,3G,V pripravi,BEŽIGRAD (Železna),GROSUPLJE
 N3,N3,,BAV. DVOR (Kozolec),RUDNIK
+N3.v-pripravi,N3,V pripravi,BAV. DVOR (Kozolec),RUDNIK
 N3B,N3B,,BAV. DVOR (Kozolec),ŠKOFLJICA obr.
+N3B.v-pripravi,N3B,V pripravi,BAV. DVOR (Kozolec),ŠKOFLJICA obr.
 5,5,,PODUTIK,ŠTEPANJSKO NAS.
+5.v-pripravi,5,V pripravi,PODUTIK,ŠTEPANJSKO NAS.
 N5,N5,,PODUTIK,ŠTEPANJSKO NAS.
+N5.v-pripravi,N5,V pripravi,PODUTIK,ŠTEPANJSKO NAS.
 6,6,,ČRNUČE,D. MOST P+R
+6.v-pripravi,6,V pripravi,ČRNUČE,D. MOST P+R
 6B,6B,,BEŽIGRAD (Železna),NOTRANJE GORICE
+6B.v-pripravi,6B,V pripravi,BEŽIGRAD (Železna),NOTRANJE GORICE
 7,7,,LETALIŠKA P+R,PRŽAN
+7.v-pripravi,7,V pripravi,LETALIŠKA P+R,PRŽAN
 8,8,,GAMELJNE,BRNČIČEVA
+8.v-pripravi,8,V pripravi,GAMELJNE,BRNČIČEVA
 9,9,,ŠTEPANJSKO NAS.,BARJE P+R
+9.v-pripravi,9,V pripravi,ŠTEPANJSKO NAS.,BARJE P+R
 10,10,,TUJI GRM,ZADOBROVA
+10.v-pripravi,10,V pripravi,TUJI GRM,ZADOBROVA
 11,11,,JEŽICA P+R,ZALOG
+11.v-pripravi,11,V pripravi,JEŽICA P+R,ZALOG
 11B,11B,,BEŽIGRAD (Železna),ZALOG
+11B.v-pripravi,11B,V pripravi,BEŽIGRAD (Železna),ZALOG
 12D,12D,,BEŽIGRAD (Železna),DOMŽALE kolodvor
+12D.v-pripravi,12D,V pripravi,BEŽIGRAD (Železna),DOMŽALE kolodvor
 13,13,,C. STOŽICE P+R,SOSTRO
+13.v-pripravi,13,V pripravi,C. STOŽICE P+R,SOSTRO
 14,14,,SAVLJE,BOKALCE
+14.v-pripravi,14,V pripravi,SAVLJE,BOKALCE
 15,15,,STANEŽIČE,SORA obr.
+15.v-pripravi,15,V pripravi,STANEŽIČE,SORA obr.
 16,16,,ČRNI LOG,TRNOVO
+16.v-pripravi,16,V pripravi,ČRNI LOG,TRNOVO
 18,18,,KOLODVOR,C. STOŽICE P+R
+18.v-pripravi,18,V pripravi,KOLODVOR,C. STOŽICE P+R
 18L,18L,,KOLODVOR,LITOSTROJSKA
+18L.v-pripravi,18L,V pripravi,KOLODVOR,LITOSTROJSKA
 19B,19B,,TOMAČEVO,JEZERO
+19B.v-pripravi,19B,V pripravi,TOMAČEVO,JEZERO
 19I,19I,,TOMAČEVO,IŠKA VAS obr.
+19I.v-pripravi,19I,V pripravi,TOMAČEVO,IŠKA VAS obr.
 20,20,,FUŽINE P+R,N. STOŽICE P+R
+20.v-pripravi,20,V pripravi,FUŽINE P+R,N. STOŽICE P+R
 20Z,20Z,,ZALOG,N. STOŽICE P+R
+20Z.v-pripravi,20Z,V pripravi,ZALOG,N. STOŽICE P+R
 21D,21D,,DOMŽALE kolodvor,JEŽICA
+21D.v-pripravi,21D,V pripravi,DOMŽALE kolodvor,JEŽICA
 22,22,,FUŽINE P+R,KAMNA GORICA
+22.v-pripravi,22,V pripravi,FUŽINE P+R,GLINCE
 23,23,,PODUTIK,KAMNA GORICA
+23.v-pripravi,23,V pripravi,PODUTIK,KAMNA GORICA
 24,24,,BTC-ATLANTIS,C. STOŽICE P+R
+24.v-pripravi,24,V pripravi,BTC-ATLANTIS,C. STOŽICE P+R
 25,25,,MEDVODE naselje,ZADOBROVA
+25.v-pripravi,25,V pripravi,MEDVODE naselje,ZADOBROVA
 26,26,,MALI LIPOGLAV,ZD POLJE
+26.v-pripravi,26,V pripravi,MALI LIPOGLAV,TUJI GRM
 27,27,,VEVČE,NS RUDNIK
+27.v-pripravi,27,V pripravi,VEVČE,NS RUDNIK
 28,28,,ČRNUČE,GAMELJNE
+28.v-pripravi,28,V pripravi,ČRNUČE,GAMELJNE
 30,30,,MEDVODE,VODICE
+30.v-pripravi,30,V pripravi,MEDVODE,VODICE
 51,51,,LJUBLJANA AP,POLHOV GRADEC
+51.v-pripravi,51,V pripravi,LJUBLJANA AP,POLHOV GRADEC
 52,52,,POLHOV GRADEC,ČRNI VRH
+52.v-pripravi,52,V pripravi,POLHOV GRADEC,ČRNI VRH
 53,53,,POLHOV GRADEC,SUHI DOL
+53.v-pripravi,53,V pripravi,POLHOV GRADEC,SUHI DOL
 56,56,,LJUBLJANA AP,ŠENTJOŠT
+56.v-pripravi,56,V pripravi,LJUBLJANA AP,ŠENTJOŠT
 60,60,,LJUBLJANA AP,POLJE obr.
+60.v-pripravi,60,V pripravi,LJUBLJANA AP,Polje obračališče
