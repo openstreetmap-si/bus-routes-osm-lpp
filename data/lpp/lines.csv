@@ -1,43 +1,74 @@
 ﻿id,line,lineExtra,nameFrom,nameTo
 SZ,SŽ,,SŽ ŠIŠKA,SŽ KOLODVOR
 1,1,,D. MOST P+R,STANEŽIČE P+R
+1.pocitniski,1,Počitniški,D. MOST P+R,STANEŽIČE P+R
 1B,1B,,D. MOST P+R,GAMELJNE
 N1,N1,,BAV. DVOR (Kozolec),GAMELJNE
 2,2,,NOVE JARŠE,ZELENA JAMA
+2.pocitniski,2,Počitniški,NOVE JARŠE,ZELENA JAMA
 3,3,,LITOSTROJ,RUDNIK
+3.pocitniski,3,Počitniški,LITOSTROJ,RUDNIK
 3B,3B,,LITOSTROJ,ŠKOFLJICA obr.
+3B.pocitniski,3B,Počitniški,LITOSTROJ,ŠKOFLJICA obr.
 3G,3G,,BEŽIGRAD (Železna),GROSUPLJE
 N3,N3,,BAV. DVOR (Kozolec),RUDNIK
 N3B,N3B,,BAV. DVOR (Kozolec),ŠKOFLJICA obr.
 5,5,,PODUTIK,ŠTEPANJSKO NAS.
+5.pocitniski,5,Počitniški,PODUTIK,ŠTEPANJSKO NAS.
 N5,N5,,PODUTIK,ŠTEPANJSKO NAS.
 6,6,,ČRNUČE,D. MOST P+R
+6.pocitniski,6,Počitniški,ČRNUČE,D. MOST P+R
 6B,6B,,BEŽIGRAD (Železna),NOTRANJE GORICE
+6B.pocitniski,6B,Počitniški,BEŽIGRAD (Železna),NOTRANJE GORICE
 7,7,,LETALIŠKA P+R,PRŽAN
+7.pocitniski,7,Počitniški,LETALIŠKA P+R,PRŽAN
 8,8,,GAMELJNE,BRNČIČEVA
+8.pocitniski,8,Počitniški,GAMELJNE,BRNČIČEVA
 9,9,,ŠTEPANJSKO NAS.,BARJE P+R
+9.pocitniski,9,Počitniški,ŠTEPANJSKO NAS.,BARJE P+R
 10,10,,TUJI GRM,ZADOBROVA
+10.pocitniski,10,Počitniški,TUJI GRM,ZADOBROVA
 11,11,,JEŽICA P+R,ZALOG
+11.pocitniski,11,Počitniški,JEŽICA P+R,ZALOG
 11B,11B,,BEŽIGRAD (Železna),ZALOG
+11B.pocitniski,11B,Počitniški,BEŽIGRAD (Železna),ZALOG
 12D,12D,,BEŽIGRAD (Železna),DOMŽALE kolodvor
+12D.pocitniski,12D,Počitniški,BEŽIGRAD (Železna),DOMŽALE kolodvor
 13,13,,C. STOŽICE P+R,SOSTRO
+13.pocitniski,13,Počitniški,C. STOŽICE P+R,SOSTRO
 14,14,,SAVLJE,BOKALCE
+14.pocitniski,14,Počitniški,SAVLJE,BOKALCE
 15,15,,STANEŽIČE,SORA obr.
+15.pocitniski,15,Počitniški,STANEŽIČE,SORA obr.
 16,16,,ČRNI LOG,TRNOVO
+16.pocitniski,16,Počitniški,ČRNI LOG,TRNOVO
 18,18,,KOLODVOR,C. STOŽICE P+R
+18.pocitniski,18,Počitniški,KOLODVOR,C. STOŽICE P+R
 18L,18L,,KOLODVOR,LITOSTROJSKA
+18L.pocitniski,18L,Počitniški,KOLODVOR,LITOSTROJSKA
 19B,19B,,TOMAČEVO,JEZERO
+19B.pocitniski,19B,Počitniški,TOMAČEVO,JEZERO
 19I,19I,,TOMAČEVO,IŠKA VAS obr.
+19I.pocitniski,19I,Počitniški,TOMAČEVO,IŠKA VAS obr.
 20,20,,FUŽINE P+R,N. STOŽICE P+R
+20.pocitniski,20,Počitniški,FUŽINE P+R,N. STOŽICE P+R
 20Z,20Z,,ZALOG,N. STOŽICE P+R
 21D,21D,,DOMŽALE kolodvor,JEŽICA
+21D.pocitniski,21D,Počitniški,DOMŽALE kolodvor,JEŽICA
 22,22,,FUŽINE P+R,GLINCE
+22.pocitniski,22,Počitniški,FUŽINE P+R,GLINCE
 23,23,,PODUTIK,KAMNA GORICA
+23.pocitniski,23,Počitniški,PODUTIK,KAMNA GORICA
 24,24,,BTC-ATLANTIS,C. STOŽICE P+R
+24.pocitniski,24,Počitniški,BTC-ATLANTIS,C. STOŽICE P+R
 25,25,,MEDVODE naselje,ZADOBROVA
+25.pocitniski,25,Počitniški,MEDVODE naselje,ZADOBROVA
 26,26,,MALI LIPOGLAV,TUJI GRM
+26.pocitniski,26,Počitniški,MALI LIPOGLAV,TUJI GRM
 27,27,,VEVČE,NS RUDNIK
+27.pocitniski,27,Počitniški,VEVČE,NS RUDNIK
 28,28,,ČRNUČE,GAMELJNE
+28.pocitniski,28,Počitniški,ČRNUČE,GAMELJNE
 30,30,,MEDVODE,VODICE
 51,51,,LJUBLJANA AP,POLHOV GRADEC
 52,52,,POLHOV GRADEC,ČRNI VRH
